@@ -1,0 +1,27 @@
+  {
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Aditya Gupta Portfolio",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github.com/adityagupta017.git"
+  },
+  "author": "Aditya Gupta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/github.com/adityagupta017/issues"
+  },
+  "homepage": "https://github.com/github.com/adityagupta017#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "nodemon": "^3.1.3"
+  }
+}
