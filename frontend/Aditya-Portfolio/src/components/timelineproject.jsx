@@ -13,12 +13,10 @@ import HotelIcon from '@mui/icons-material/Hotel';
 import EngineeringIcon from '@mui/icons-material/Engineering';
 import Typography from '@mui/material/Typography';
 import SchoolIcon from '@mui/icons-material/School';
-import Tooltip from '@mui/material/Tooltip';
 
-
-export default function CustomizedTimeline() {
+export default function timelineprojects () {
   return (
-    <Timeline position="right">
+    <Timeline position="alternate">
       <TimelineItem>
         <TimelineOppositeContent
           sx={{ m: 'auto 0' }}
@@ -37,9 +35,9 @@ export default function CustomizedTimeline() {
         </TimelineSeparator>
         <TimelineContent sx={{ py: '100px', px: 2 }}>
           <Typography variant="h6" component="span">
-            2024-present
+            Eat
           </Typography>
-          <Typography>Freelance Web Dev and Cloud Consultant</Typography>
+          <Typography>Because you need strength</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
@@ -53,29 +51,24 @@ export default function CustomizedTimeline() {
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary">
-            <Tooltip title="Masters in Computer Science" >
-              <SchoolIcon />
-            </Tooltip>
+            <LaptopMacIcon />
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '100px', px: 2 }}>
           <Typography variant="h6" component="span">
-            2022-2024
+            Code
           </Typography>
-          <Typography>Stevens Institute of Technology, NYC, US</Typography>
+          <Typography>Because it&apos;s awesome!</Typography>
         </TimelineContent>
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineConnector />
           <TimelineDot color="primary" variant="outlined">
-            <Tooltip title = "Systems Engineer">
             <EngineeringIcon/>
-
-            </Tooltip>
             </TimelineDot>
-          <TimelineConnector sx={{ bgcolor: 'white' }} />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
         </TimelineSeparator>
         <TimelineContent sx={{ py: '100px', px: 2 }}>
           <Typography variant="h6" component="span">
@@ -86,16 +79,13 @@ export default function CustomizedTimeline() {
       </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
-          <TimelineConnector sx={{ bgcolor: 'white' }} />
+          <TimelineConnector sx={{ bgcolor: 'secondary.main' }} />
           <TimelineDot color="secondary">
-            <Tooltip title="Bachelors in Information Technology">
             <SchoolIcon />
-
-            </Tooltip>
           </TimelineDot>
           <TimelineConnector />
         </TimelineSeparator>
-        <TimelineContent sx={{ py: '0', px: 2 }}>
+        <TimelineContent sx={{ py: '100px', px: 2 }}>
           <Typography variant="h6" component="span">
             2014-2018
           </Typography>

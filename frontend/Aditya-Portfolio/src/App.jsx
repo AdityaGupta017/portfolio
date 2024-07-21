@@ -2,6 +2,8 @@ import { useState } from 'react'
 import CustomizedTimeline from './components/timeline'
 import ResponsiveAppBar from './components/navbar'
 import './App.css'
+import { Timeline } from '@mui/lab'
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,14 +11,13 @@ function App() {
   return (
     <>
       <div>
-        Hello portfolio
       </div> 
       <div>
 
         
        
        <ResponsiveAppBar>
-
+        
        </ResponsiveAppBar>
        <CustomizedTimeline>
         
