@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import ResponsiveAppBar from './components/navbar'
 import './App.css'
 
