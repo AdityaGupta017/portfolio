@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import ResponsiveAppBar from './components/navbar'
 import Hero from './components/Hero'
 import Skills from './components/Skills'

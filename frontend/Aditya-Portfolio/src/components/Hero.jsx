@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography, Container, Button } from '@mui/material';
 import { GitHub, LinkedIn, Email, Twitter, Language } from '@mui/icons-material';
 import { personalInfo, theme } from '../config/portfolioData';
