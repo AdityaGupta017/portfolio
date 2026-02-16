@@ -1,29 +1,21 @@
-import { useState } from 'react'
-import CustomizedTimeline from './components/timeline'
 import ResponsiveAppBar from './components/navbar'
+import Hero from './components/Hero'
+import Skills from './components/Skills'
+import Projects from './components/Projects'
+import CustomizedTimeline from './components/timeline'
+import { Box } from '@mui/material'
 import './App.css'
-import { Timeline } from '@mui/lab'
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-      </div> 
-      <div>
-
-        
-       
-       <ResponsiveAppBar>
-        
-       </ResponsiveAppBar>
-       <CustomizedTimeline>
-        
-       </CustomizedTimeline>
-      </div>
-    </>
+    <Box sx={{ width: '100%' }}>
+      <ResponsiveAppBar />
+      <Hero />
+      <Skills />
+      <Projects />
+      <CustomizedTimeline />
+    </Box>
   )
 }
 
