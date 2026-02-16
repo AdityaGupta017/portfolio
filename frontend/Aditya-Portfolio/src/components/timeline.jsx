@@ -50,7 +50,7 @@ export default function CustomizedTimeline() {
                 <TimelineConnector />
                 <TimelineDot
                   color={item.type === 'education' ? 'secondary' : 'primary'}
-                  variant={item.type === 'work' && index === 2 ? 'outlined' : 'filled'}
+                  variant={item.variant || 'filled'}
                   sx={{ p: 1.5 }}
                 >
                   <Tooltip title={item.type === 'education' ? 'Education' : 'Work Experience'}>

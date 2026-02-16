@@ -107,6 +107,7 @@ export const timeline = [
     title: "Systems Engineer",
     organization: "CRZ Consultants, New Delhi, India",
     description: "Worked on enterprise applications, database management, and system integration projects.",
+    variant: "outlined", // Optional: "filled" or "outlined" - defaults to "filled"
   },
   {
     type: "education",
